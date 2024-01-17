@@ -1,0 +1,195 @@
+ .mynav .nav-item:active
+  {
+
+    border-bottom:2px solid orange;
+  } 
+   
+
+.navbar img {
+    vertical-align: middle;
+    border-style: none;
+    width: 120px;
+}
+
+
+.slider-img img
+{
+    height:450px;
+    object-fit: cover;
+}
+    
+ .carousel-item
+ {
+    transition:all 0s;
+ }  
+ .carouselP{
+    font-size: 21px;
+ }
+
+  .icons {
+    padding:45px;
+}
+
+
+.Roadblock01 {
+    background-image: url("/assets/images/veg2.jpg");
+    /* background-position: center; */
+    background-attachment: fixed;
+    position: relative;
+    background-color:rgba(0, 0, 0,0.5);
+    padding:80px;
+}
+
+.Roadblock01::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#imgVed {
+    background-image: url("/assets/images/fastFood3.jpg");
+     background-position: center; 
+    background-attachment: fixed;
+    position: relative;
+}
+
+#imgVed::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.vedio
+{
+    margin-top:3rem;
+}
+
+.photo-gallary img
+{
+    
+    height:330px;
+    width:100%;
+    object-fit: cover;
+    border-radius:4px;
+    
+}
+
+.text-capitalize,.my-4
+{
+    text-align: center;
+    font-weight:bolder;
+
+    
+}
+
+      /* 1 PAGE End                                */ 
+    /*Services section start*/
+
+    .Roadblock02 {
+        background-image: url("/assets/images/fastFood4.jpg");
+        background-position:center;
+        background-attachment:fixed;
+        background-size: cover;
+        position: relative;
+        background-color:rgba(0, 0, 0,0.5);
+        padding:92px;
+        
+       
+
+        
+    }
+    
+    .Roadblock02::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+      
+
+
+    }
+    
+    /* star contact as page               */
+
+.card-demo p
+{
+    font-weight:normal;
+    text-align: justify;
+}
+
+
+.contact01
+{
+    background-image:url("/assets/images/fastFood4.jpg");
+    background-position:center;
+    background-attachment:fixed;
+    background-size: cover;
+    position: relative;
+    background-color:rgba(0, 0, 0,0.5);
+    padding:92px;
+
+}
+
+
+.contact01::before
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0,0.6);
+}
+
+.card-demo a
+{
+    color:#f30d75;
+    font-size:20px;
+}
+
+.card-demo a:hover
+ {
+      color:rgba(126, 10, 10, 0.842)    
+ }
+
+.btn10
+{
+    border-radius:15px;
+    background-color: #35060b;
+    padding:12px;
+    color:#fff9fa;
+    width:50%;
+    margin:0 auto;
+    
+   
+}
+
+.btn10:hover{
+    background-color: #5a4505;
+    color:white;
+}
+
+
+.card p
+{
+    padding:1px;
+    margin:1.2em;
+} 
+.footer
+{
+    background-color:black;
+    font-weight:bold;
+    font-family:elephant;  
+} 
